@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/Home.vue'
 
 Vue.use(Router)
 
@@ -9,15 +8,17 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      component: Home
+      component: () => import('./views/Home')
     },
     {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
-    }
+      path: '/flowChart-gojs',
+      name: 'flowChart-gojs',
+      component: () => import('./views/FlowChart-gojs')
+    },
+    {
+      path: '/flowChart-dagreD3',
+      name: 'flowChart-dagreD3',
+      component: () => import('./views/FlowChart-dagreD3')
+    },
   ]
 })
