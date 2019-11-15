@@ -2,7 +2,7 @@
     <div class="box">
         <div class="container">
             <h1>vue-plugs-demo</h1>
-            <p>vue插件demo</p>
+            <p>总结一些vue插件的用法，定期更新~</p>
             <ul>
                 <li>
                     <router-link to="/flowChart-gojs">flowChart-gojs - 流程图gojs</router-link>

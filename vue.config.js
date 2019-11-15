@@ -1,5 +1,5 @@
 module.exports = {
-    outputDir: 'docs',
+    outputDir: 'vue-plugs-demo',
     publicPath: './',
     productionSourceMap: false,
     devServer:{
