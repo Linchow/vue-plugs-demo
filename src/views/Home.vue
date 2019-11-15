@@ -10,6 +10,9 @@
                 <li>
                     <router-link to="/flowChart-dagreD3">flowChart-dagreD3 - 流程图dagreD3</router-link>
                 </li>
+                <li>
+                    <router-link to="/print">print - 打印</router-link>
+                </li>
             </ul>
         </div>
     </div>

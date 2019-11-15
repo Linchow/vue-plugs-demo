@@ -296,7 +296,7 @@ export default {
 };
 </script>
 
-<style>
+<style scope>
 button {
 	margin: 0 10px;
 	border: 1px solid #ddd;

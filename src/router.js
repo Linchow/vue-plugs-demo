@@ -20,5 +20,10 @@ export default new Router({
       name: 'flowChart-dagreD3',
       component: () => import('./views/FlowChart-dagreD3')
     },
+    {
+      path: '/print',
+      name: 'print',
+      component: () => import('./views/Print')
+    },
   ]
 })

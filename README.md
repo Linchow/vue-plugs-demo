@@ -5,6 +5,7 @@
 
 - [flowChart-gojs - 流程图gojs](https://linchow.github.io/vue-plugs-demo/#/flowChart-gojs)
 - [flowChart-dagreD3 - 流程图dagreD3](https://linchow.github.io/vue-plugs-demo/#/flowChart-dagreD3)
+- [print - 打印](https://linchow.github.io/vue-plugs-demo/#/print)
 
 ## 项目启动
 
